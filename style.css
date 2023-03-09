@@ -1,8 +1,118 @@
-
 body {
-    background: blue;
-  }
+  display: block;
+}
 
 h1 {
-    color: white;
+  color: red;
+  /* margin: 50px auto 0 auto; */
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+  font-size: 1.5rem;
+  margin-left: 50px;
+
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.first-container {
+  background-color: azure;
+  height:150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.skills-title {
+  margin-left: 100px;
+  font-size: 1.5rem;
+  color: red;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.experience {
+  background-color: darkgrey;
+  padding: 30px;
+}
+
+.experience h2 {
+  color: whitesmoke;
+}
+
+.experience a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-left: 2rem;
+  color: blue;
+  font-weight: 900;
+}
+
+.experience h4 {
+  padding-left: 2rem;
+  color: red;
+
+}
+
+.button {
+  background: red;
+  border-radius: 6px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 15px;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.contact h3 {
+  color: red;
+}
+footer {
+  background-color: red;
+  margin-top: 20px;
+  height: 80px;
+  padding: 40px 60px 50px;
+  text-align: center;
+}
+
+footer a {
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+footer a:hover {
+  color: blue;
 }
