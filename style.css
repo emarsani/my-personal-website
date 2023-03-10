@@ -29,6 +29,12 @@ li a {
   text-decoration: none;
 }
 
+li a:hover {
+  color: red;
+  font-weight: 900;
+  transition: 2s;
+}
+
 .first-container {
   background-color: azure;
   height:150px;
@@ -36,6 +42,11 @@ li a {
   padding-bottom: 30px;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.title span {
+  font-size: 1.5rem;
+  color: blue;
 }
 
 .skills-title {
@@ -74,7 +85,7 @@ li a {
 
 }
 
-.button {
+#button {
   background: red;
   border-radius: 6px;
   font-family: sans-serif;
@@ -84,7 +95,7 @@ li a {
   text-decoration: none;
 }
 
-.button:hover {
+#button:hover {
   background-color: black;
 }
 
